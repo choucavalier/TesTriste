@@ -70,7 +70,8 @@ namespace TesTriste
             int startX = x - (maxX-minX + 1)*11;
             int startY = y - (maxY-minY + 1)*11;
             foreach (var cell in Cells)
-                spriteBatch.Draw(TexturesManager.Piece, new Vector2(startX + (cell.X - minX)*22, startY + (cell.Y - minY)*22),
+                spriteBatch.Draw(TexturesManager.Piece, new Vector2(
+                    startX + (cell.X - minX)*22, startY + (cell.Y - minY)*22),
                                  Color.White);
         }
 
