@@ -8,9 +8,7 @@ namespace TesTriste
         public static Texture2D GameBackground,
                                 GameOver,
                                 Piece,
-                                PieceBlocked,
-                                Wait,
-                                Error;
+                                PieceBlocked;
 
         public static SpriteFont Trebuchet18;
 
@@ -22,6 +20,5 @@ namespace TesTriste
             PieceBlocked = content.Load<Texture2D>("PieceBlocked");
             Trebuchet18 = content.Load<SpriteFont>("Trebuchet18");
         }
-
     }
 }
